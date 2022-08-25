@@ -1,0 +1,185 @@
+body{
+    background: rgb(243, 238, 238);
+}
+
+    /* For index.php  */
+
+#index form{
+    width:500px;
+    height:500px;
+    margin:15% 0 0 30%;
+    /* background: green; */
+}
+#index img{
+    width:100px;
+    height: 100px;
+}
+
+
+    /* end index.php  */
+
+
+/* For heade.php  */
+
+#nav p{
+    font-size: 3.5rem;
+    color:green;
+    font-weight: bolder;
+}
+#nav #col1 a{
+    text-decoration: none;
+}
+#nav #col1 a p span{
+    font-size: 2rem;
+    margin:0 10px 10px 0;
+}
+#nav #col2 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:red;
+}
+/*end header.php */
+
+    /* For home.php */
+#card p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#card a{
+    text-decoration: none;
+    color:#000;
+}
+#card img{
+    width:250px;
+    height: 200px;
+    margin-left: 20px;
+}
+#card #col{
+    background: rgb(243, 238, 238);
+}
+    /*end home.php */
+
+
+/* footer   */
+
+#footer #row h2{
+    font-size: 1rem;
+    display: inline-block;
+    padding:0 10% 0 10%;
+}
+
+
+/* end footer  */
+
+
+    /* start user.php  */   /* product.php */
+
+#user_c1 h2{
+    margin:25px 0 25px 0;
+}
+#user_c1 h2 a{
+    text-decoration: none;
+    color:#000;
+}
+#user_c1 form input{
+    width: 400px;
+    display: inline-block;
+    margin:25px 0 0 25%;
+}
+#user_c2 table,th,td{
+    /* border:1px solid #ccc; */
+    padding:10px;
+}
+#user_c2 table tr th{
+    width:300px;
+    font-size: 1.2rem;
+}
+#user_c2 table tr td{
+    font-size: 1.2rem;
+}
+#user_c2 #option{
+    width:150px;
+
+}
+#user_c2 #option a{
+    margin-left: 20px;
+}
+#user_c2 img{
+    width:100px;
+    height: 100px;
+}
+
+    /* end user.php */
+
+
+/* start category.php  */
+
+    #category_c1 h2{
+        margin:25px 0 25px 0;
+    }
+    #category_c1 h2 a{
+        text-decoration: none;
+        color:#000;
+    }
+    #category_c1 form input{
+        width: 400px;
+        display: inline-block;
+        margin:25px 0 0 25%;
+    }
+    #category_c2 table,th,td{
+        /* border:1px solid #ccc; */
+        font-size: 1rem;
+        padding:10px;
+    }
+    #category_c2 table tr th{
+        width:300px;
+        font-size: 1.2rem;
+    }
+    #category_c2 table tr td{
+        font-size: 1.2rem;
+    }
+    #category_c2 img{
+        width:100px;
+        height:100px;
+    }
+    #category_c2 a{
+        margin-left:20px;
+    }
+/* end category.php */
+
+
+    /* edit.php  */
+
+#edit form input{
+    width:100%;
+}
+
+    /* end edit.php */
+
+
+/* create_categroy.php */
+
+#create_category form input{
+    width:70%;
+}
+
+/* end create_categroy.php */
+
+
+
+    /* create_brand.php */
+
+#create_brand form input{
+    width:70%;
+}
+
+    /* end create_brand.php */
+
+
+ /* create_product.php */
+
+ #create_product form input{
+        width:100%;
+    }
+    
+/* end create_product.php */

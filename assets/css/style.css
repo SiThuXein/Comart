@@ -1,0 +1,648 @@
+/* For header.php */
+
+#nav{
+    box-sizing: border-box;
+    background: rgb(46, 139, 46);
+    width:100%;
+    height:60px;
+    position:fixed;
+    z-index: 1;
+}
+#nav #col1 h1{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 12px 0 0 0;
+    color:#fff;
+    font-weight: bolder;
+}
+#nav #col1 img{
+    margin-left: 20px;
+}
+#nav #col2 div{
+    padding:10px 0 0 30px;
+}
+#nav #col2 button{
+    width:150px;
+    background: rgb(46, 139, 46);
+    color:#fff;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border:2px solid rgb(52, 163, 52);
+    /* box-shadow: 3px 3px 3px rgb(47, 104, 49); */
+}
+#nav #col2 ul li{
+    width:300px;
+    padding:10px;
+}
+#nav #col2 ul li a{
+    text-decoration: none;
+}
+#nav #col2 ul li a{
+    font-size: 1rem;
+    cursor: pointer;
+    color:#000;
+}
+#nav #col2 ul li:hover{
+    border-left:3px solid green;
+}
+#nav #col2 ul li a:hover{
+    color: rgb(46, 139, 46);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#nav #col3 input{
+    width:80%;
+    height: 40px;
+    margin:10px 0 10px 0;
+    border-radius: 5px;
+    margin-left: 10%;
+    
+}
+#nav #col3 input:hover{
+    box-shadow: 1px 1px 10px 0.5px rgba(255, 255, 255,0.8);
+}
+
+#nav #col4 a{
+    font-size: 1rem;
+    display:inline-block;
+    margin-top: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    color:#fff;
+    font-weight: bolder;
+}
+#nav #col4 span{
+    color:#fff;
+    padding-left: 3px;
+}
+#nav #col4 a:hover{
+    text-decoration: underline;
+}
+#nav #col5 div{
+    margin-top: 13px;
+    color:#fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#nav #col5 a{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+}
+
+.main{
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+}
+
+/* end header.php */
+
+
+    /* For index.php */
+
+/* container_1  start  */
+
+
+#container_1{
+    background: rgb(248, 248, 248);
+}
+#container_1 #row_1{
+    padding-top:20px;
+}
+#container_1 #row_1 h1{
+    font-size: 1.3rem;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+#container_1 #row_2{
+    margin:0 12% 0 15%;
+}
+#container_1 #row_2 a{
+    text-decoration: none;
+    color:#000;
+}
+#container_1 #row_2 #col{
+    width:150px;
+    height: 200px;
+    margin-left: 20px;
+    /* background: red; */
+}
+#container_1 #row_2  img{
+    width: 150px;
+    height: 150px;
+    /* margin:20px 10px 10px 0; */
+}
+#container_1 #row_2 h3{
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 10px;
+   
+}
+
+/*  end  */
+
+
+/* container_2  start  */
+
+#container_2 h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:50px 0 0 20px;
+}
+#container_2 #col{
+    background:rgb(248, 248, 248);
+    margin:30px 10px 30px 20px;
+}
+
+#container_2 #col:hover{
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+/* end */
+
+
+/* container_3  start  */
+
+#container_3 h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:30px 0 30px 20px;
+}
+#container_3 #porduct{
+    width:200px;
+    height:350px;
+    border:1px solid #ccc;
+    margin:0 0 30px 0;
+}
+#container_3 #img{
+    width:auto;
+    height:150px;
+    /* background: red; */
+}
+#container_3 #name{
+    width:auto;
+    height: 70px;
+    /* background: green; */
+}
+#container_3 #name a{
+    text-decoration: none;
+    color:#000;
+}
+#container_3 #name a h3{
+    font-size: 1rem;
+    padding:3px 0 0 10px;
+}
+
+#container_3 #button{
+    width: auto;
+    height: 130px;
+    /* background: blue; */
+}
+#container_3 #button #s1{
+    font-size: 1rem;
+    float:left;
+    margin:50px 0 0 10px;
+}
+#container_3 #button a{
+    text-decoration: none;
+}
+#container_3 #button  a button{
+    font-size: 1rem;
+    width:180px;
+    height:30px;
+    margin:10px 0 0 10px;
+    border:1px solid rgb(46, 139, 46);
+    border-radius: 1px;
+    background:rgb(46, 139, 46);
+    color:#fff;
+}
+#container_3 #product_view{
+    width:200px;
+    height:350px;
+    border:1px solid #ccc;
+    margin:0 0 30px 20px;
+}
+#container_3 #product_view a{
+    text-decoration: none;
+}
+#container_3 #product_view a button{
+    background: rgb(46, 139, 46);
+    color:#fff;
+    width: 150px;
+    height:40px;
+    font-size: 1.2rem;
+    margin:150px 0 0 25px;
+}
+
+/* end */
+
+    /* end index.php */
+
+/* footer   start */
+
+#footer{
+    background: rgb(248, 248, 248);
+}
+#footer #row_1{
+    margin:0 12% 0 15%;
+        /* background: red; */
+}
+#footer h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 70px 0 20px 0;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer a span{
+    font-size: 1rem;
+    color:rgb(129, 126, 126);
+    display: block;
+    margin:10px 0 10px 0;
+}
+#footer a span:hover{
+    text-decoration: underline;
+}
+#footer img{
+    display: inline-block;
+    margin-right:10px;
+}
+#footer #row_2{
+    margin:0 12% 0 15%;
+    height: 50px;
+}
+#footer #row_2 h2{
+    display: inline-block;
+    font-size: 1rem;
+    color:rgb(129, 126, 126);
+    padding:0 0 0 15%;
+}
+
+/* end */
+
+/* end index.php */
+
+
+/* For category.php & brand.php  */
+
+#d1{
+    position: relative;
+    width: 300px;
+    height: 800px;
+    float: left;
+    margin-left: 5%;
+}
+#d1 h4{
+    margin:20px 0 30px 0;
+    font-weight: 500;
+} 
+#d1 a{
+  text-decoration: none;
+  color:#000;
+  font-size: 0.9rem;
+}
+#d1 a:hover{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+#d2{
+    height: auto;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+#footer{
+    clear: both;
+}
+#d2 #col{
+    margin-right: 20px;
+}
+#d2 #porduct{
+    width:220px;
+    height:350px;
+    border:1px solid #ccc;
+    margin:20px 0 20px 0;
+}
+#d2 #img{
+    width:auto;
+    height:150px;
+    /* background: red; */
+}
+#d2 #name{
+    width:auto;
+    height: 70px;
+    /* background: green; */
+}
+#d2 #name a{
+    text-decoration: none;
+    color:#000;
+}
+#d2 #name a h3{
+    font-size: 1rem;
+    padding:3px 0 5px 10px;
+}
+
+#d2 #button{
+    width: auto;
+    height: 130px;
+    /* background: blue; */
+}
+#d2 #button #s1{
+    font-size: 1rem;
+    float:left;
+    padding:50px 0 0 10px;
+}
+/* #d2 #button #s2{
+    font-size: 1rem;
+    float:right;
+    margin-right: 10px;
+    margin:70px 0 0 0;
+} */
+#d2 #button a{
+    text-decoration: none;
+}
+#d2 #button  a button{
+    font-size: 1rem;
+    width:200px;
+    height:30px;
+    margin:5px 0 0 10px;
+    border:1px solid rgb(46, 139, 46);
+    border-radius: 1px;
+    background:rgb(46, 139, 46);
+    color:#fff;
+}
+
+
+
+/* end  category.php & brand.php  */
+
+
+    /* For product.php */
+
+#d3{
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#d3 #porduct{
+    width:220px;
+    height:350px;
+    border:1px solid #ccc;
+    margin:20px 0 20px 0;
+}
+#d3 #col{
+    margin-right: 20px;
+}
+#d3 #img{
+    width:auto;
+    height:150px;
+    /* background: red; */
+}
+#d3 #name{
+    width:auto;
+    height: 70px;
+    /* background: green; */
+}
+#d3 #name a{
+    text-decoration: none;
+    color:#000;
+}
+#d3 #name a h3{
+    font-size: 1rem;
+    padding:3px 0 5px 10px;
+}
+
+#d3 #button{
+    width: auto;
+    height: 130px;
+    /* background: blue; */
+}
+#d3 #button #s1{
+    font-size: 1rem;
+    float:left;
+    padding:50px 0 0 10px;
+}
+/* #d2 #button #s2{
+    font-size: 1rem;
+    float:right;
+    margin-right: 10px;
+    margin:70px 0 0 0;
+} */
+#d3 #button a{
+    text-decoration: none;
+}
+#d3 #button  a button{
+    font-size: 1rem;
+    width:200px;
+    height:30px;
+    margin:5px 0 0 10px;
+    border:1px solid rgb(46, 139, 46);
+    border-radius: 1px;
+    background:rgb(46, 139, 46);
+    color:#fff;
+}
+
+    
+
+    /* end product.php */
+
+
+/* For login.php */
+
+#login form button{
+    width:200px;
+}
+#login form span{
+    padding-left: 27%;
+    font-size: 0.8rem;
+}
+#login form span a{
+    text-decoration: none;
+    color:green;
+}
+#login form span a:hover{
+    text-decoration: underline;
+}
+#login form input{
+    width:500px;
+}
+
+/* end login.php */
+
+
+
+/* For singup.php */
+
+#signup form button{
+    width:200px;
+}
+#signup form input{
+    width:500px;
+}
+
+
+/* For cart.php  */
+
+#cart h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+table,tr,th,td{
+    /* border : 1px solid black; */
+    font-size:18px;   
+    text-align: center;
+    padding:5px 0 10px 0;
+}
+th{
+    width:300px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#row_2 a{
+    text-decoration: none;
+}
+#row_2 a span{
+    font-size:25px;
+    padding-left:10px;
+    color:red;
+}
+#row_2 img{
+    width:100px;
+    height: 100px;
+}
+#row_2 #decrease{
+    margin-right: 10px;
+}
+#row_2 #increase{
+    margin-left : 10px;
+}
+#clear_cart{
+    float:left;
+    width:30%;
+
+}
+#clear_cart a{
+    text-decoration: none;
+    list-style:none;
+    color:#fff;
+}
+#clear_cart button{
+    width:200px;
+    height:50px;
+    border:1px solid #ccc;
+    font-size: 20px;
+    margin:10% 0 0 20%;
+}
+#clear_cart button:hover{
+    background: #ffa500;
+    color:#fff;
+}
+#checkout{
+    float:left;
+    width:30%;
+}
+#checkout a{
+    text-decoration: none;
+    list-style:none;
+    color:#fff;
+}
+#checkout button{
+    width:200px;
+    height:50px;
+    border:1px solid #ccc;
+    font-size: 20px;
+    margin:10% 0 0 0%;
+}
+#checkout button:hover{
+    background: #ffa500;
+    color:#fff;
+}
+#cart_total{
+    float:left;
+    width:40%;
+}
+#cart_total p{
+    font-size: 20px;
+    font-weight: bold;
+    margin:10% 0 0 65%;
+}
+
+#cart_total span{
+    padding-left:7%;
+    color:red;
+}
+.no_cart{
+    margin-left: 5%;
+    color:red;
+}
+
+
+/* end cart.php */
+
+
+    /*For detail.php */
+
+#detail #D2 p{
+    font-size: 2rem;
+}
+#detail #D2 h3{
+    margin-top: 100px;
+}
+#detail #D2 button{
+    width:300px;
+    height: 50px;
+    border:1px solid rgb(46, 139, 46);
+    border-radius: 1px;
+    background:rgb(46, 139, 46);
+    color:#fff;
+    font-size: 1.3rem;
+    margin-top:30px;
+}
+    /*end detail.php  */
+
+
+/* For payment.php   */
+
+#payment h2{
+    font-weight: bold;
+}
+#payment label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#payment input{
+    width:70%;
+}
+#payment select{
+    width:200px;
+    height: 30px;
+}
+
+
+/* end payment.php  */
+
+
+    /* For success.php  */
+
+#success #row_1 h4{
+    color:green;
+    margin-left: 10%;
+}
+#success #row_2 #d2{
+    margin-top:15px;
+}
+#success #row_2 #total h5{
+    text-align: right;
+    padding-right: 60px;
+}
+
+    /* end success.php  */
